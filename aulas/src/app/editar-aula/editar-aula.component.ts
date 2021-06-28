@@ -9,10 +9,6 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class EditarAulaComponent implements OnInit {
     aulaForm: FormGroup | any;
-    valueName: any;
-    valueCourse: any;
-    valueActivity: any;
-    valueRoom: any;
     nomeAula: any;
     cursos: any;
     cursosFormatados= "";
